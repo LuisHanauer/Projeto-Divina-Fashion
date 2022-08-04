@@ -1,11 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    background: #E5E5E5;
 }
 
 nav{
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+  }
+  
+  .lista ul {
+    display: flex;
+    gap: 28px;
+  }
+  
+  .lista ul li a {
+    color: #000;
+  }
+  
+  
+  @media (max-width: 834px) {
+    .header {
+      width: 595px;
+    }
+  }
+  
+  @media (max-width: 680px) {
+    .header {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 428px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      align-items: flex-start;
+    }
+  
+    .lista ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+/*corpo*/
+
+.imagem1 {
+    width: 100%;
+  }
+  
+  .h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #660027;
+  }
+  
+  @media (max-width: 834px) {
+    .corpo {
+      width: 595px;
+    }
+  
+    .imagem1 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 428px) {
+    .corpo {
+      width: 320px;
+    }
+  }
+
+/*Cards*/
+
+.cards-textos {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cards {
+    width: 250px;
+    height: 410px;
+    border: 1px solid #9E9B9B;
+  }
+  
+  .sessao-cards {
+    padding: 16px 25px 42px 28px;
+  }
+  
+  .sessao-cards h2 {
+    font-size: 1.5rem;
+    color: #660027;
+  }
+  
+  .sessao-cards p {
+    color: #7D7777;
+  }
+  
+  .sessao-cards button {
+    margin-top: 20px;
+    width: 128px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    color: #660027;
+    cursor: pointer;
+  }
+  
+
+  /*Footer*/
+  .conteudo-rodape {
+    margin-top: 70px;
+    height: 120px;
+    background: #660027;
+  }
+  
+  .rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+  
+  .rodape p {
+    color: #fff;
+    line-height: 1px;
+  }
+  
+
