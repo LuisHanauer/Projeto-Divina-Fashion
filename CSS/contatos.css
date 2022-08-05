@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    background: #E5E5E5;
+    width: 100%;
+}
+
+/*HEADER*/
+
+.cabecalho{
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 71px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 56px;
+}
+
+.cabecalho-imagem{
+
+    height: 70px;
+    width: 155px;
+    padding-top: 15px;
+    padding-right: 37px;
+    padding-left: 1px;
+    
+}
+
+.cabecalho-menu{
+
+    display: flex;
+    gap: 50px;
+
+}
+
+.cabecalho-menu-item1{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+}
+
+.cabecalho-menu-item2{
+
+    padding-left: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+}
+
+/*CONTATO*/
+.caixa{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 183px;
+    
+    }
+
+
+
+h1{
+   
+    width: 128px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #660027;
+}
+
+.caixa-contatos{
+
+    border: 1px solid #660027;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 780px;
+    height: 700px;
+    text-align: left;
+    margin-top: 51px;
+}
+
+.sessao-caixa-contato{
+
+    
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+    margin-left: 19px;
+    justify-content: center;
+    text-align: center;
+    
+
+    background: #660027;
+    margin-top: 51px;
+    
+    
+}
+
+.caixa-com-contato{    
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FEFEFE;
+    
+
+}
