@@ -13,6 +13,7 @@ body{
     font-size: 100%;
     background: #E5E5E5;
     width: 100%;
+    
 }
 
 /*HEADER*/
@@ -24,7 +25,6 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
-    margin-top: 71px;
     margin: 0 auto;
     max-width: 1200px;
     margin-top: 56px;
@@ -34,9 +34,7 @@ body{
 
     height: 70px;
     width: 155px;
-    padding-top: 15px;
-    padding-right: 37px;
-    padding-left: 1px;
+    
     
 }
 
@@ -72,7 +70,8 @@ body{
 
 /*CONTATO*/
 .caixa{
-    border: 1px solid black;
+    
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -81,12 +80,41 @@ body{
     max-width: 1200px;
     margin-bottom: 183px;
     
-    }
+}
 
 
+/*CAIXA COM ENTRADA DE DADOS*/
+.sessao-contatos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa-contatos{
+
+    padding-top: 46px;
+    padding-left: 199px;
+    border: 1px solid #660027;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 auto;
+    width: 780px;
+    height: 700px;
+    
+    margin-top: 51px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7B7676;
+}
 
 h1{
    
+    padding-left: 127px;
+    padding-bottom: 57px;
     width: 128px;
     height: 42px;
     font-family: 'Roboto';
@@ -97,20 +125,48 @@ h1{
     color: #660027;
 }
 
-.caixa-contatos{
+input{
 
+    padding-left: 10px;
+    align-items: center;
     border: 1px solid #660027;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 780px;
-    height: 700px;
-    text-align: left;
-    margin-top: 51px;
+    border-radius: 4px;
+    width: 400px;
+    height: 42px;
+    margin-bottom: 29px;
 }
 
+textarea{
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 400px;
+    height: 125px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+}
+
+.caixa-contatos-botao-enviar{
+    width: 128px;
+    height: 42px;
+    background: #660027;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 41px;
+
+    color: #FFFFFF
+}
+
+
+/*CAIXA COM DADOS DOS CONTATOS*/
 .sessao-caixa-contato{
 
+    display: flex;
+    flex-wrap: wrap;
     
     border: 1px solid black;
     display: flex;
