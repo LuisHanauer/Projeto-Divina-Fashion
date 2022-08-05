@@ -8,148 +8,48 @@
 }
 
 body{
-    
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
     background: #E5E5E5;
 }
 
-nav{
+/*HEADER*/
+
+.cabecalho{
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: left;
+    justify-content:space-between;
+    padding: 71px;
+    
+
 }
 
-/*header*/
+.cabecalho-imagem{
 
-header {
+    height: 70px;
+    width: 155px;
+    top: 71px;
+    left: 120px;
+
+}
+
+.cabecalho-menu{
+
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1200px;
-  }
-  
-  .lista ul {
-    display: flex;
-    gap: 28px;
-  }
-  
-  .lista ul li a {
-    color: #000;
-  }
-  
-  
-  @media (max-width: 834px) {
-    .header {
-      width: 595px;
-    }
-  }
-  
-  @media (max-width: 680px) {
-    .header {
-      width: 500px;
-    }
-  }
-  
-  @media (max-width: 428px) {
-    .header {
-      display: flex;
-      flex-direction: column;
-      width: 200px;
-      align-items: flex-start;
-    }
-  
-    .lista ul {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  }
+    gap: 50px;
 
-/*corpo*/
+}
 
-.imagem1 {
-    width: 100%;
-  }
-  
-  .h1 {
-    font-size: 2.25rem;
-    font-weight: bold;
-    color: #660027;
-  }
-  
-  @media (max-width: 834px) {
-    .corpo {
-      width: 595px;
-    }
-  
-    .imagem1 {
-      display: none;
-    }
-  }
-  
-  @media (max-width: 428px) {
-    .corpo {
-      width: 320px;
-    }
-  }
+.cabecalho-menu-item{
 
-/*Cards*/
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
 
-.cards-textos {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .cards {
-    width: 250px;
-    height: 410px;
-    border: 1px solid #9E9B9B;
-  }
-  
-  .sessao-cards {
-    padding: 16px 25px 42px 28px;
-  }
-  
-  .sessao-cards h2 {
-    font-size: 1.5rem;
-    color: #660027;
-  }
-  
-  .sessao-cards p {
-    color: #7D7777;
-  }
-  
-  .sessao-cards button {
-    margin-top: 20px;
-    width: 128px;
-    height: 42px;
-    background: #FFFFFF;
-    border: 2px solid #660027;
-    border-radius: 4px;
-    color: #660027;
-    cursor: pointer;
-  }
-  
-
-  /*Footer*/
-  .conteudo-rodape {
-    margin-top: 70px;
-    height: 120px;
-    background: #660027;
-  }
-  
-  .rodape {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 30px;
-  }
-  
-  .rodape p {
-    color: #fff;
-    line-height: 1px;
-  }
-  
+}
 
