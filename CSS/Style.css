@@ -8,21 +8,24 @@
 }
 
 body{
+
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
     background: #E5E5E5;
+    max-width: 1200px;
 }
 
 /*HEADER*/
 
 .cabecalho{
+    border: 1px solid black;
 
     display: flex;
     flex-direction: row;
-    align-items: left;
+    align-items: center;
     justify-content:space-between;
-    padding: 71px;
-    
+    margin-top: 71px;
+    margin-left: 120px;
 
 }
 
@@ -30,8 +33,11 @@ body{
 
     height: 70px;
     width: 155px;
-    top: 71px;
-    left: 120px;
+    padding-top: 15px;
+    padding-right: 37px;
+    padding-left: 1px;
+    
+    
 
 }
 
@@ -53,3 +59,154 @@ body{
 
 }
 
+/*MAIN TEXTO*/
+
+.conteudo{
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-left: 120px;
+    padding-top: 51px;
+   
+    
+}
+
+.imagem-banner{
+
+    width: 100%;
+    padding-bottom: 24px;
+    
+}
+
+.titulo-moda{
+
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #660027;
+}
+
+.conteudo-texto{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #6C6969;
+}
+
+/*CARDS*/
+
+.sessao-cards{
+
+    border: 1px solid red;
+    
+    padding-top: 83px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.cards-unitarios{
+
+    border: 1px solid black;
+    justify-content: center;
+    width: 250px;
+    height: 410px;
+    margin-bottom: 72px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+   
+}
+
+.imagem-card{
+
+    display: flex;
+    
+}
+
+h2{
+    padding-top: 36px;
+    padding-bottom: 24px;
+   
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #660027;
+}
+.card-textos{
+
+    padding-left: 28px;
+    padding-right: 25px;
+    padding-bottom: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #7D7777;
+}
+
+.botao{
+    margin-top: 29px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 28px;
+    padding-right: 41px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #660027;
+    border-color: #660027;
+    }
+
+
+
+/*RODAPÉ*/
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    background: #660027;
+    margin-left: 120px;
+    align-items: center;
+}
+
+.conteudo-rodape{
+
+    
+    padding-top: 27px;
+    padding-bottom: 42px;
+    padding-left: 450px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+}
