@@ -48,6 +48,9 @@
         font-size: 14px;
         line-height: 16px;
     }
+    footer{
+        display: none;
+    }
 
 }
 
@@ -67,6 +70,68 @@
         display: flex;
         flex-direction: column;
         justify-content: left;
+    }
+    .caixa{
+        
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    
+    .sessao-contatos{
+        
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: left;
+
+    }
+    .caixa.contatos{
+               
+        width: 320px;
+        margin: 0 auto;
+    }
+    
+    .formulario-contatos{
+        font-size: 14px;
+        line-height: 16px;
+        width: 263px;
+    }
+    input{
+        max-width: 263px;
+    }
+    textarea{
+        max-width: 263px;
+    }
+
+    .sessao-caixa-contato{
+        display: none;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        background: #660027;
+        align-items: center;
+        margin-top: 43px;
+    }
+    
+    .conteudo-rodape{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        max-width: 1200px;   
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FEFEFE;
+        padding-top: 27px;
+        padding-bottom: 42px;
+        
+    
     }
     
 }
