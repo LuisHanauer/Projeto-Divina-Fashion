@@ -71,7 +71,7 @@ body{
 /*CONTATO*/
 .caixa{
     
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -84,15 +84,12 @@ body{
 
 
 /*CAIXA COM ENTRADA DE DADOS*/
-.sessao-contatos{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .caixa-contatos{
 
     padding-top: 46px;
-    padding-left: 199px;
+    
     border: 1px solid #660027;
     display: flex;
     flex-direction: column;
@@ -112,8 +109,7 @@ body{
 }
 
 h1{
-   
-    padding-left: 127px;
+    align-self: center;
     padding-bottom: 57px;
     width: 128px;
     height: 42px;
@@ -123,6 +119,14 @@ h1{
     font-size: 36px;
     line-height: 42px;
     color: #660027;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 525px;
+    margin: 0 auto;
 }
 
 input{

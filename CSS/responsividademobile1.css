@@ -1,0 +1,69 @@
+/*RESPONSIVIDADE TABLET*/
+@media(max-width:768px){
+    body{
+        width: 100%;
+              
+    }
+    .cabecalho{
+        max-width: 595px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+    
+    .conteudo{
+        max-width: 595px;
+        margin: 0 auto;
+    }
+    .imagem-banner{
+        display: none;
+    }
+
+    .sessao-cards{
+
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .rodape{
+        width: 100%;
+    }
+}
+
+/*RESPONSIVIDADE CELULAR*/
+@media(max-width: 360px){
+    body{
+        width: 100%; 
+        margin: 0 auto;
+        flex-wrap: wrap;             
+    }
+    .cabecalho{
+        width: 155px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cabecalho-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    
+    .conteudo{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .imagem-banner{
+        display: none;
+    }
+
+    .sessao-cards{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .rodape{
+        width: 100%;
+    }
+}
