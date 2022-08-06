@@ -8,7 +8,7 @@
         flex-direction: row;
         justify-content: space-between; 
     }
-
+    
     .caixa{
         
         max-width: 595px;
@@ -65,11 +65,23 @@
         width: 155px;
         display: flex;
         flex-direction: column;
+        
     }
     .cabecalho-menu{
         display: flex;
         flex-direction: column;
         justify-content: left;
+        margin-left: -100px;
+        gap: 5px;
+    }
+    .divisao-cabecalho-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+    }
+    .divisao-cabecalho-menu a{
+        padding: 0;
     }
     .caixa{
         
