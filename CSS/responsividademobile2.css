@@ -1,0 +1,72 @@
+@media(max-width: 768px){
+    body{
+        width: 100%;              
+    }
+    .cabecalho{
+        max-width: 595px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+
+    .caixa{
+        
+        max-width: 595px;
+        margin: 0 auto;
+    }
+    
+    .sessao-contatos{
+        
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: left;
+
+    }
+    .caixa.contatos{
+               
+        width: 320px;
+        margin: 0 auto;
+    }
+    
+    .formulario-contatos{
+        font-size: 14px;
+        line-height: 16px;
+        width: 263px;
+    }
+    input{
+        max-width: 263px;
+    }
+    textarea{
+        max-width: 263px;
+    }
+
+    .sessao-caixa-contato{
+        max-width: 256px;
+    }
+    .caixa-com-contato{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+}
+
+/*RESPONSIVIDADE CELULAR CONTATOS*/
+@media(max-width: 360px){
+    body{
+        width: 100%; 
+        margin: 0 auto;
+        flex-wrap: wrap;             
+    }
+    .cabecalho{
+        width: 155px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cabecalho-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    
+}
